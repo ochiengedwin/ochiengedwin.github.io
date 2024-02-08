@@ -1,0 +1,222 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; 
+    padding: 0; 
+    background-image: url(/w1.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(243, 244, 245);
+    background-blend-mode: luminosity;
+}
+
+.nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    position: relative;
+    background-color: #67a880;
+    width: 100%;
+    height: 80px;
+}
+.nav img {
+    width: 60px;
+    height: 35px;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+.logo {
+    padding: 0 6px;
+}
+figcaption {
+    font-family: magneto;
+    font-size: 2.345rem;
+    align-self: center;
+    color: aliceblue;
+}
+.links {
+    position: relative; 
+    margin-right: 40px;
+    display: flex;
+    color: aliceblue;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.232em;
+}
+a:hover {
+    color: #e8aa23;
+}
+ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+}
+figure {
+    border: 2px solid aliceblue;
+    border-bottom: none;
+}
+li {
+    margin: 0 10px; 
+    display: inline-block;
+}
+.search {
+    width: 110px;
+    height: 2rem;
+    background: #d8d4cd;
+    border: double aliceblue;
+    border-radius: 10px;
+}
+.search:focus {
+    outline: double aliceblue;
+    background: #f1f1f0;
+}
+.links form {
+    margin-left: 10px; 
+}
+button[type="submit"] {
+    padding: 6px 10px;
+    border-radius: 5px; 
+    background-color: #fff; 
+    border: none; 
+    margin-left: 0;
+    cursor: pointer; 
+    font-size: large;
+    opacity: 0.8;
+}
+button[type="submit"]:hover {
+    background-color: hsl(0, 14%, 89%);
+    opacity: 1;
+}
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    background-color: #e0dfdc;
+    display: flex;
+    justify-content: space-between;
+}
+.front-page {
+    max-width: 800px;
+    margin-right: 2em;
+    margin-top: 1.23em;
+    font-size: 1.256rem;
+    font-weight: bold;
+}
+.main-pic {
+    margin-left: 0;
+    width: 300px;
+    height: 100%;
+    padding-right: 3rem;
+    margin-left: 0;
+    border-radius: 0%;
+    opacity: 0.9;
+}
+.main-sep {
+    width: 60%;
+    font-weight: bolder;
+    border: 1px solid aliceblue;
+    margin-top: 20px;
+}
+.more-info {
+    width: 70%;
+    margin: 1.23em auto auto auto;
+}
+.more-info h2 {
+    margin: 1.23em auto 2.45rem auto;
+    width: 80%;
+    height: 2.345rem;
+    background: #e8aa23;
+    text-align: center;
+}
+fieldset {
+    width: 90%;
+    margin-top: 1.212rem;
+    margin: 2.67rem;
+    
+}
+fieldset h2 {
+    text-align: center;
+    color: aliceblue;
+}
+legend {
+    text-align: center;
+    font-weight: bold;
+    font-family: magneto;
+    font-size: 1.34em;
+    color: aliceblue;
+}
+@media(max-width: 789px) {
+    .nav {
+        display: block;
+        height: 150px;
+    }
+    .links {
+        margin-right: 16px;
+        margin-left: 20px;
+        display: inline-block;
+        margin-top: -0.5rem;
+    }
+    li {
+        display: inline-flex;
+        font-size: 0.772rem;
+    }
+    form {
+        margin-top: 0.53rem;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav figcaption {
+        margin-top: 1.45rem;
+        text-align: center;
+    }
+    figure {
+        margin-top: 0;
+    }
+    ul {
+        width: 100%;
+    }
+    .search {
+        width: 180px;
+        margin-left: 70px;
+    }
+    fieldset h2 {
+        text-align: center;
+        color: aliceblue;
+        margin-top: 0;
+    }
+    main {
+        width: 100%;
+        display: block;
+        margin-bottom: 2rem;
+    }
+    .main {
+        width: 50%;
+        margin: 0.23rem auto 0 auto;
+    }
+    fieldset {
+        margin-top: 0.99rem;
+        width: 80%;
+    }
+    .front-page {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1.23em;
+        font-size: 1.236rem;
+        margin-bottom: 1.23rem;
+        font-weight: bold;
+    }
+    .main-pic {
+        height: 180px;
+        width: 170px;
+        border-radius: 49.999%;
+        padding-right: 0;
+        margin-top: 1.23rem;
+        object-fit: cover;
+    }
+}
